@@ -14,5 +14,5 @@ COMPOSE_DOCKER_CLI_BUILD=0 DOCKER_BUILDKIT=0 docker-compose -f docker-compose.de
 
 # make sure the postgres container is ready, then run migrations
 sleep 10 
-docker exec docker-compose-app-api-1  python /src/manage.py makemigrations 
-docker exec docker-compose-app-api-1  python /src/manage.py migrate
+docker exec MyCar-2-api-1  python /src/manage.py makemigrations 
+docker exec MyCar-2-api-1  python /src/manage.py migrate

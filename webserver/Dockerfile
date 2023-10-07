@@ -11,7 +11,7 @@ WORKDIR /frontend
 # These two lines will allow us to pass in an environment
 # variable when the image is *built* (not run).  For local
 # development, localhost; for production, your EC2's IP address
-ARG VITE_BASE_URL='3.17.5.63'
+ARG VITE_BASE_URL=localhost
 ENV VITE_BASE_URL=$VITE_BASE_URL
 
 COPY ./frontend/package.json .
