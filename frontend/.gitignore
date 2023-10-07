@@ -1,5 +1,4 @@
-cars.pem
-MyCar.pem
+*.pem
 venv
 _pycache_
 # Logs
